@@ -1,7 +1,7 @@
 const navItems = document.querySelectorAll("nav a");
 const container = document.querySelector(".container");
 
-let path = "http://localhost/mtm1526/hot-topics/partials/home.html";
+let path = "https://kendrathompson.github.io/hot-topics/partials/home.html";
 
 // handling clicking
 function handleClick(ev) {
