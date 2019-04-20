@@ -1,0 +1,144 @@
+/*
+ANALOGOUS COLOURS(green and yellow side-by-side on colour wheel):
+olive green: #4a552b
+yellow: #efdd8d
+light-yellow: #fffbdc
+*/
+
+body {
+	background-color: #fffbdc;
+	font-family: 'Lato', sans-serif;
+	font-weight: normal;
+	font-size: 0.75rem;
+	line-height: 1.4;
+}
+
+.logo {
+	width: 200px;
+	height: auto;
+	margin: 0 auto;
+	padding: 1rem;
+}
+
+.tagline {
+	background-color: #efdd8d;
+}
+
+header {
+	background-image: url(../images/gold-coins.jpg);
+	padding-top: 2rem;
+}
+
+.navbar, .navbar-expand-lg, .navbar-light, .bg-light{
+	background-color: #efdd8d!important;
+	font-family: 'Bree Serif', serif;
+}
+
+h1, h2 {
+	font-family: 'Bree Serif', serif;
+	color: #4a552b;
+	font-weight: bold;
+	margin: 2rem auto 1rem auto;
+}
+
+img {
+	width: 400px;
+	height: auto;
+	display: block;
+	margin: 1rem auto 2rem auto;
+	border-radius: 50%;
+  	border-style: solid;
+  	border-width: 5px;
+  	border-color: #efdd8d;
+}
+
+figcaption, h1, h2 {
+	text-align: center;
+}
+
+hr {
+	width: 100%; 
+	color: black; 
+	height: 1px; 
+	background-color:black;
+}
+
+.portfolio {
+	width: 300px;
+}
+
+footer {
+	color: #fffbdc;
+	background-color: #4a552b;
+	padding-top: 2rem;
+}
+
+footer h2 {
+	color: #fffbdc;
+	margin-top: 0;
+}
+
+footer .col {
+	text-align: center;
+	margin: 0 auto;
+	text-decoration: none;
+}
+
+footer .col a {
+	color: #efdd8d;
+	font-size: 1rem;
+}
+
+@media only screen and (min-width: 35rem) {
+	body {
+		font-size: 1rem;
+	}
+
+	.wrapper {
+		max-width: 60%;
+		margin: 0 auto;
+	}
+
+	img {
+		margin-right: 2rem;
+		width: 40%;
+	}
+
+	.article img {
+		float: left;
+	}
+
+	.article::after {
+		content: "";
+		display: block;
+		clear: both;
+	}
+
+	footer .col a {
+		font-size: 2rem;
+	}
+}
+
+@media only screen and (min-width: 80rem) {
+	body {
+		font-size: 1.25rem;
+		line-height: 1.6;
+	}
+
+	.tagline {
+		padding-left: 1.5rem;
+	}
+
+	h1, h2 {
+		text-align: left;
+	}
+
+	.article p {
+		float: right;
+		width: calc(100% - 40% - 2rem);
+	}
+
+	footer h2 {
+		text-align: center;
+	}
+}
